@@ -6,7 +6,10 @@ import "./index.css";
 // import Counternew from "./Counternew";
 // import Demo from "./Demo";
 // import Demonew from "./Demonew";
-import Loop from "./Loop";
+//import Loop from "./Loop";
+// import Todo from "./Todo";
+import Lifecycle from "./Lifecycle";
+//import Ajax from "./Ajax";
 
 //import reportWebVitals from "./reportWebVitals";
 // var x = setInterval(() => {
@@ -19,7 +22,7 @@ import Loop from "./Loop";
 // }, 1000);
 ReactDOM.render(
   <React.StrictMode>
-    <Loop />
+    <Lifecycle />
   </React.StrictMode>,
   document.getElementById("root")
 );

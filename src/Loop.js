@@ -4,6 +4,11 @@ class Loop extends Component {
     super(props);
     this.state = {
       items: ["apple", "orange", "grape", "pista"],
+      users: [
+        { name: "appu", age: 20 },
+        { name: "karuna", age: 30 },
+        { name: "nithin", age: 27 },
+      ],
     };
   }
 
@@ -15,6 +20,20 @@ class Loop extends Component {
             <li key={k}>{itm}</li>
           ))}
         </ul>
+        <table>
+          <tr>
+            <td>Name</td>
+            <td>Age</td>
+          </tr>
+          {this.state.users.map((itm, k) => {
+            return (
+              <tr>
+                <td> {itm.name}</td>
+                <td> {itm.age}</td>
+              </tr>
+            );
+          })}
+        </table>
       </div>
     );
   }
