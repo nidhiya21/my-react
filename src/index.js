@@ -8,9 +8,9 @@ import "./index.css";
 // import Demonew from "./Demonew";
 //import Loop from "./Loop";
 // import Todo from "./Todo";
-import Lifecycle from "./Lifecycle";
+//import Lifecycle from "./Lifecycle";
 //import Ajax from "./Ajax";
-
+import Form from "./Form";
 //import reportWebVitals from "./reportWebVitals";
 // var x = setInterval(() => {
 //   ReactDOM.render(
@@ -22,7 +22,7 @@ import Lifecycle from "./Lifecycle";
 // }, 1000);
 ReactDOM.render(
   <React.StrictMode>
-    <Lifecycle />
+    <Form />
   </React.StrictMode>,
   document.getElementById("root")
 );
