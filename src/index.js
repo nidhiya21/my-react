@@ -10,7 +10,9 @@ import "./index.css";
 // import Todo from "./Todo";
 //import Lifecycle from "./Lifecycle";
 //import Ajax from "./Ajax";
-import Form from "./Form";
+// import Form from "./Form";
+import Routing from "./Routing";
+
 //import reportWebVitals from "./reportWebVitals";
 // var x = setInterval(() => {
 //   ReactDOM.render(
@@ -22,7 +24,7 @@ import Form from "./Form";
 // }, 1000);
 ReactDOM.render(
   <React.StrictMode>
-    <Form />
+    <Routing />
   </React.StrictMode>,
   document.getElementById("root")
 );
