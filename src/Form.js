@@ -32,7 +32,7 @@ class Form extends Component {
     });
   };
 
-  render() {
+  render() { 
     return (
       <div className="container">
         <div className="row">
